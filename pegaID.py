@@ -1,9 +1,13 @@
 from telethon import TelegramClient
 from time import sleep
+from dotenv import load_dotenv
+import os
+
+load_dotenv('.env')
 
 # Substitua pelos seus valores
-api_id = '27161128'
-api_hash = '070ee5597cdf4cc31ecc9b4d40d7dbd2'
+api_id = os.getenv("API_ID").strip()
+api_hash = os.getenv("API_HASH").strip()
 
 # Crie uma sessão do cliente do Telethon
 client = TelegramClient('session_name', api_id, api_hash)

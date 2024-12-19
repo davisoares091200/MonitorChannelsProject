@@ -12,7 +12,7 @@ load_dotenv('.env')
 api_id = int(os.getenv("API_ID").strip())  # Substitua pelo seu
 api_hash = os.getenv("API_HASH").strip()  # Substitua pelo seu
 source_channel = channel  # ID ou username do canal de origem
-target_channel = int(os.getenv("TARGET_CHANNEL").strip())#-1002250175818  # ID ou username do canal de destino
+target_channel = int(os.getenv("TARGET_CHANNEL").strip()) # ID ou username do canal de destino
 limit = int(input("\nDigite quantas mensagens você deseja monitorar: "))
 
 # Inicializa o cliente do Telethon
