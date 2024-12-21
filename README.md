@@ -17,7 +17,7 @@
 - **sendBot.py**: Possui interface gráfica moderna desenvolvida com `customtkinter`. 
   - Permite enviar um arquivo de imagem ou vídeo, acompanhado de legenda ou não, para um canal de destino escolhido pelo usuário.
   - Adiciona um botão "SEJA VIP" na mensagem, que direciona para um bot de pagamentos.
-  - Integração com a API do Mercado Pago para processar pagamentos.
+  - Caso tenha interesse na integração com a API do Mercado Pago para processar pagamentos, meu contato segue abaixo.
 
 ### Entre em Contato:
 Entre em contato pelo WhatsApp através do número **+55 92 99362-3464** caso tenha interesse.
